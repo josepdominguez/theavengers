@@ -1,0 +1,42 @@
+.accordion {
+  &-trigger {
+    padding-left: 60px;
+    @media (min-width: 768px) {
+      padding-right: 40px;
+    }
+  
+    svg {
+      position: absolute;
+      left: 24px;
+      top: 24px;
+    }
+  }
+  
+  &-cta {
+    padding-right: 20px;
+  }
+
+  &-collapsable {
+    padding-left: 60px;
+    padding-right: 40px;
+  
+    &::before {
+      content: ' ';
+      width: 100%;
+      height: 2px;
+      display: block;
+      background-color: var(--separator-color);
+      margin-top: -16px;
+      margin-bottom: 14px;
+      border-left: 1px solid var(--separator-left-border-color);
+    }
+  
+    a {
+      text-decoration: none;
+      color: var(--link-color)
+    }
+  }
+}
+
+
+

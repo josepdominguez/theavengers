@@ -1,0 +1,149 @@
+:root {
+  /** COLOR VARS */
+  --color-navy-blue: #163361;
+  --color-white: #fff;
+  --color-navy-blue: #163361;
+  --color-light-blue: #38cced;
+  --color-grey: #f6f6f6;
+  --color-grey-2: #e1e5e5;
+  --color-grey-3: #bdbdbd;
+  --color-black: #0a0a0a;
+  --color-blue: #257bd7;
+  --transparent: transparent;
+
+  /** USES OF COLOR VARS */
+  --link-color: var(--color-blue);
+  --h2-color: var(--color-navy-blue);
+  --h4-color: var(--color-navy-blue);
+  --card-border-color: var(--color-grey);
+  --separator-color: var(--color-grey-2);
+  --separator-left-border-color: var(--color-grey-3);
+  --layout-background-color: var(--color-grey);
+  --primary-button-background-color: var(--transparent);
+  --primary-button-text-color: var(--color-navy-blue);
+  --secondary-button-background-color: var(--color-navy-blue);
+  --secondary-button-text-color: var(--color-white);
+  --button-border-color: var(--color-navy-blue);
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/** TEXT */
+h2 {
+  &.section-title {
+    font-weight: 600 !important;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 38px;
+    color: var(--h2-color);
+    margin-bottom: 87px;
+    
+    /** THE BLUE BAR */
+    &::before {
+      content: '';
+      width: 40px;
+      height: 4px;
+      background: var(--color-light-blue);
+      display: block;
+      margin: 0 auto 38px auto;
+      border-radius: 2px;
+    }
+  }
+}
+
+h4 {
+  color: var(--h4-color);
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+
+p, span, a {
+  line-height: 24px;
+  font-size: 15px;
+}
+
+/** BUTTONS */
+button, a {
+  &.btn {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 12px 28px;
+    background: transparent;
+    border-color: var(--button-border-color);
+    border-radius: 5px;
+  
+    &-primary {
+      background: var(--primary-button-background-color);
+      color: var(--primary-button-text-color);
+
+      &:focus, &:hover {
+        background: var(--primary-button-background-color);
+        color: var(--primary-button-text-color);
+      }
+    }
+  
+    &-secondary {
+      background: var(--secondary-button-background-color);
+      color: var(--secondary-button-text-color);
+
+      &:focus, &:hover {
+        background: var(--secondary-button-background-color);
+        color: var(--secondary-button-text-color);
+      }
+    }
+  }
+}
+
+/** LAYOUT */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1160px !important;
+  }
+}
+
+section {
+  padding: 100px 0 120px;
+  margin: 0 24px;
+  border-radius: 8px;
+
+  &.bkg-fill {
+    background-color: var(--layout-background-color);
+  }
+}
+
+/** STYLING THE ACCORDION (GLOBALLY) */
+.accordion {
+  &-item {
+    border: none !important;
+    margin-bottom: 9px;
+    background: none !important;
+  }
+
+  &-collapse {
+    background: white;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+  }
+
+  &-button {
+    border-radius: 10px !important;
+    padding-top: 26px !important;
+
+    &:not(.collapsed) {
+      background-color: var(--color-white) !important;
+      color: var(--color-black) !important;
+      box-shadow: none !important;
+      border-bottom-left-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+    }
+
+    &:focus {
+      border-color: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+}
