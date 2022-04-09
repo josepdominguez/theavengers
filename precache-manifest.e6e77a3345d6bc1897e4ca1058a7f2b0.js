@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a471be3e0e5d20d00379d90951f611a8",
+    "revision": "7b37c1274de4792e0b6437227fbfa475",
     "url": "/theavengers/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/theavengers/static/css/2.709e72d0.chunk.css"
   },
   {
-    "revision": "ca40a670586deb2877bf",
+    "revision": "88cb8f90052fddd6803d",
     "url": "/theavengers/static/css/main.1acc4580.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/theavengers/static/js/2.b0635907.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca40a670586deb2877bf",
-    "url": "/theavengers/static/js/main.15ed61e9.chunk.js"
+    "revision": "88cb8f90052fddd6803d",
+    "url": "/theavengers/static/js/main.7196bfb6.chunk.js"
   },
   {
     "revision": "1ff7d915e1dca38e8e9d",

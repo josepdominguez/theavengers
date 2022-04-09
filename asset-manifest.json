@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/theavengers/static/css/main.1acc4580.chunk.css",
-    "main.js": "/theavengers/static/js/main.15ed61e9.chunk.js",
-    "main.js.map": "/theavengers/static/js/main.15ed61e9.chunk.js.map",
+    "main.js": "/theavengers/static/js/main.7196bfb6.chunk.js",
+    "main.js.map": "/theavengers/static/js/main.7196bfb6.chunk.js.map",
     "runtime-main.js": "/theavengers/static/js/runtime-main.3894b43b.js",
     "runtime-main.js.map": "/theavengers/static/js/runtime-main.3894b43b.js.map",
     "static/css/2.709e72d0.chunk.css": "/theavengers/static/css/2.709e72d0.chunk.css",
     "static/js/2.b0635907.chunk.js": "/theavengers/static/js/2.b0635907.chunk.js",
     "static/js/2.b0635907.chunk.js.map": "/theavengers/static/js/2.b0635907.chunk.js.map",
     "index.html": "/theavengers/index.html",
-    "precache-manifest.4301e110a2e63d22e57dbac8d39c160c.js": "/theavengers/precache-manifest.4301e110a2e63d22e57dbac8d39c160c.js",
+    "precache-manifest.e6e77a3345d6bc1897e4ca1058a7f2b0.js": "/theavengers/precache-manifest.e6e77a3345d6bc1897e4ca1058a7f2b0.js",
     "service-worker.js": "/theavengers/service-worker.js",
     "static/css/2.709e72d0.chunk.css.map": "/theavengers/static/css/2.709e72d0.chunk.css.map",
     "static/css/main.1acc4580.chunk.css.map": "/theavengers/static/css/main.1acc4580.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.709e72d0.chunk.css",
     "static/js/2.b0635907.chunk.js",
     "static/css/main.1acc4580.chunk.css",
-    "static/js/main.15ed61e9.chunk.js"
+    "static/js/main.7196bfb6.chunk.js"
   ]
 }
