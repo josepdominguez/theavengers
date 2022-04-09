@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import Card from '../SourceCard/index'
+import Card from '../SourceCard'
 import Source from '../../types/Source'
 import { Row, Col } from 'react-bootstrap'
 

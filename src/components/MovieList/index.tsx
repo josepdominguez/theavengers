@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { Accordion } from 'react-bootstrap'
 import Movie from '../../types/Movie'
-import MovieAccordionItem from '../MovieAccordionItem/'
+import MovieAccordionItem from '../MovieAccordionItem'
 
 interface MovieListProps {
   items: Array<Movie>

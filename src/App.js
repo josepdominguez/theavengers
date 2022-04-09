@@ -1,9 +1,8 @@
 import React from 'react'
-import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container } from 'react-bootstrap'
-import MovieList from './components/MovieList/index'
-import MovieSources from './components/MovieSources/'
+import MovieList from './components/MovieList'
+import MovieSources from './components/MovieSources'
 import listOfMovies from './json/movies.json'
 import listOfSources from './json/movie_sources.json'
 
