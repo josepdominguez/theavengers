@@ -1,6 +1,7 @@
 {
   "name": "react-card",
   "version": "0.1.0",
+  "homepage": "https://josepdominguez.github.io/theavengers/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -11,6 +12,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^3.2.3",
     "node-sass": "^4.14.1",
     "react": "^18",
     "react-bootstrap": "^2.2.3",
@@ -19,6 +21,8 @@
     "typescript": "^4.6.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
