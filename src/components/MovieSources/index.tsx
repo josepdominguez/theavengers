@@ -11,7 +11,7 @@ const MovieSources: FC<MovieSourcesProps> = ({ items }) => {
   return (
     <Row>
       {items.map((item) => (
-        <Col sm={6} key={item.name}><Card source={item} /></Col>
+        <Col sm={12} md={6} key={item.name}><Card source={item} /></Col>
       ))}
     </Row>)
 }
