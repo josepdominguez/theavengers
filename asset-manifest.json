@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.65a00d12.chunk.css",
-    "main.js": "/static/js/main.1037a835.chunk.js",
-    "main.js.map": "/static/js/main.1037a835.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.06602f45.js",
-    "runtime-main.js.map": "/static/js/runtime-main.06602f45.js.map",
-    "static/css/2.709e72d0.chunk.css": "/static/css/2.709e72d0.chunk.css",
-    "static/js/2.f52d8963.chunk.js": "/static/js/2.f52d8963.chunk.js",
-    "static/js/2.f52d8963.chunk.js.map": "/static/js/2.f52d8963.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0ed1c718385e08ea252d553a1a726431.js": "/precache-manifest.0ed1c718385e08ea252d553a1a726431.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.709e72d0.chunk.css.map": "/static/css/2.709e72d0.chunk.css.map",
-    "static/css/main.65a00d12.chunk.css.map": "/static/css/main.65a00d12.chunk.css.map",
-    "static/js/2.f52d8963.chunk.js.LICENSE.txt": "/static/js/2.f52d8963.chunk.js.LICENSE.txt",
-    "static/media/video.837710f5.svg": "/static/media/video.837710f5.svg"
+    "main.css": "/theavengers/static/css/main.65a00d12.chunk.css",
+    "main.js": "/theavengers/static/js/main.a568e3d1.chunk.js",
+    "main.js.map": "/theavengers/static/js/main.a568e3d1.chunk.js.map",
+    "runtime-main.js": "/theavengers/static/js/runtime-main.3894b43b.js",
+    "runtime-main.js.map": "/theavengers/static/js/runtime-main.3894b43b.js.map",
+    "static/css/2.709e72d0.chunk.css": "/theavengers/static/css/2.709e72d0.chunk.css",
+    "static/js/2.f52d8963.chunk.js": "/theavengers/static/js/2.f52d8963.chunk.js",
+    "static/js/2.f52d8963.chunk.js.map": "/theavengers/static/js/2.f52d8963.chunk.js.map",
+    "index.html": "/theavengers/index.html",
+    "precache-manifest.de67eda572cb03276b775103e2bd6813.js": "/theavengers/precache-manifest.de67eda572cb03276b775103e2bd6813.js",
+    "service-worker.js": "/theavengers/service-worker.js",
+    "static/css/2.709e72d0.chunk.css.map": "/theavengers/static/css/2.709e72d0.chunk.css.map",
+    "static/css/main.65a00d12.chunk.css.map": "/theavengers/static/css/main.65a00d12.chunk.css.map",
+    "static/js/2.f52d8963.chunk.js.LICENSE.txt": "/theavengers/static/js/2.f52d8963.chunk.js.LICENSE.txt",
+    "static/media/video.837710f5.svg": "/theavengers/static/media/video.837710f5.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.06602f45.js",
+    "static/js/runtime-main.3894b43b.js",
     "static/css/2.709e72d0.chunk.css",
     "static/js/2.f52d8963.chunk.js",
     "static/css/main.65a00d12.chunk.css",
-    "static/js/main.1037a835.chunk.js"
+    "static/js/main.a568e3d1.chunk.js"
   ]
 }
